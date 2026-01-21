@@ -1,0 +1,14 @@
+{
+  "site-a": {
+    "cmd": "ssh ${SITE_A_USER}@${SITE_A_HOST}",
+    "desc": "Example site A"
+  },
+  "site-b": {
+    "cmd": "ssh -i \"${SITE_B_KEY_PATH}\" ${SITE_B_USER}@${SITE_B_HOST}",
+    "desc": "Example site B (key auth)"
+  },
+  "site-c": {
+    "cmd": "ssh ${SITE_C_USER}@${SITE_C_HOST} -p ${SITE_C_PORT}",
+    "desc": "Example site C (custom port)"
+  }
+}

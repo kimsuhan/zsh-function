@@ -1,0 +1,12 @@
+# sensitive data files
+data/*
+!data/*.example.json
+
+# sensitive keys and envs
+*.pem
+*.key
+*.p12
+.env
+
+# sensitive executables/scripts
+aws-db-connect.zsh
