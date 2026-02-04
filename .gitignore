@@ -7,6 +7,3 @@ data/*
 *.key
 *.p12
 .env
-
-# sensitive executables/scripts
-aws-db-connect.zsh

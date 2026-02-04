@@ -9,6 +9,7 @@ the repository and loaded from local files or environment variables.
 
 ```
 cp ~/.zshrc_function/data/ssh-sites.example.json ~/.zshrc_function/data/ssh-sites.json
+cp ~/.zshrc_function/data/aws-tunneling.example.json ~/.zshrc_function/data/aws-tunneling.json
 ```
 
 2. Export required environment variables in your shell profile:
@@ -33,4 +34,5 @@ source ~/.zshrc
 ## Notes
 
 - `data/ssh-sites.json` are ignored by git.
+- `data/aws-tunneling.json` are ignored by git.
 - Keep key files private and with restricted permissions (e.g., `chmod 600`).

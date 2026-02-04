@@ -1,0 +1,20 @@
+{
+  "example-by-tag": {
+    "desc": "Example tunneling by Name tag",
+    "profile": "${AWS_PROFILE}",
+    "region": "${AWS_REGION}",
+    "target_tag_name": "${TARGET_TAG_NAME}",
+    "host": "${REMOTE_HOST}",
+    "port": "${REMOTE_PORT}",
+    "local_port": "${LOCAL_PORT}"
+  },
+  "example-by-instance-id": {
+    "desc": "Example tunneling by instance id",
+    "profile": "${AWS_PROFILE}",
+    "region": "${AWS_REGION}",
+    "target_instance_id": "${TARGET_INSTANCE_ID}",
+    "host": "${REMOTE_HOST}",
+    "port": "${REMOTE_PORT}",
+    "local_port": "${LOCAL_PORT}"
+  }
+}
